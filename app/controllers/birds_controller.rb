@@ -56,3 +56,11 @@ class BirdsController < ApplicationController
   end
 
 end
+
+# def update
+#   bird = find_bird
+#   bird.update(bird_params)
+#   render json: bird
+# rescue ActiveRecord::RecordNotFound
+#   render_not_found_response
+# end
